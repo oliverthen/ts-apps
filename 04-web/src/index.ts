@@ -2,9 +2,7 @@ import { User } from "./models/User";
 
 const user = new User({name: 'new record', age: 0});
 
-user.events.on('change', () => {
-	console.log('change');
-});
+console.log(user);
 
+console.log(user.get('age'));
 
-user.events.trigger('change');
