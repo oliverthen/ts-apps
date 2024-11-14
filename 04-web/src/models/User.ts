@@ -19,6 +19,8 @@ export class User extends Model<UserProps> {
 			new Eventing(),
 			new ApiSync<UserProps>(rootUrl)
 		);
+		
+		
 	}
 	
 }
