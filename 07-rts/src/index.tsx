@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom/client";
-import Parent from "./props/Parent";
-
+import GuestList from "./state/GuestList";
 
 const el = document.getElementById("root");
 
@@ -10,7 +9,7 @@ const root = ReactDOM.createRoot(el!);
 const App = () => {
   return (
     <div>
-      <Parent />
+      <GuestList />
     </div>
   );
 };
